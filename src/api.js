@@ -1,4 +1,4 @@
-import regeneratorRuntime from 'libs/regenerator-runtime/runtime-module';
+import regeneratorRuntime from './libs/regenerator-runtime/runtime-module';
 import requestUtil from './utils/request'
 import exceptionUtil from './utils/exception'
 import Cache from './utils/cache'
