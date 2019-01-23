@@ -1,0 +1,26 @@
+.page-goods-search{
+    display: block;
+    overflow: hidden;
+}
+.page-goods-search section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background-color: #fff;
+    overflow: hidden;
+    width: 94vw;
+    margin: 16px auto;
+    height: 60px;
+}
+.page-goods-search section image{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+.page-goods-search section text{
+    font-size: 28px;
+    color: #999999;
+
+}

@@ -1,0 +1,57 @@
+.order-state-reason{
+
+}
+.order-state-reason .header{
+    border-bottom: 2px solid #F8F8F8;
+    padding: 10px 30px;
+}
+.order-state-reason .header .state{
+    font-size: 28px;
+    color: #333333;
+
+}
+.order-state-reason .body{
+    font-size: 24px;
+    color: #999999;
+    padding: 30px;
+    border-bottom: 2px solid #F8F8F8;
+
+}
+.order-state-reason .body span{
+    display: block;
+}
+.order-state-reason .footer{
+    border-bottom: 2px solid #F8F8F8;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.order-address{
+    font-size: 28px;
+    color: #333333;
+    font-weight: bold;
+}
+.refund-success{
+    padding: 30px;
+}
+.refund-success .refund-info{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #F8F8F8;
+}
+.refund-success .state-steps{
+    background-color: #FFFFFF;
+    padding: 30px;
+    display: block;
+    overflow: hidden;
+}
+.refund-success .refund-info .item{
+    color: #333333;
+    font-size: 28px;
+}
+.refund-success .refund-info .item label{
+    font-weight: bold;
+    margin-right: 20px;
+}
+.refund-success .refund-info .item text{
+
+}

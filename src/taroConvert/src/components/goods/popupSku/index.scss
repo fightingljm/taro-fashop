@@ -1,0 +1,169 @@
+.popup-sku {
+}
+login-view{
+    width: 100%;
+}
+
+.choice-spec {
+    background-color: #fff;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5;
+}
+
+.choice-spec .header {
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.choice-spec .header .goods-img {
+    display: flex;
+    align-items: center;
+}
+
+.choice-spec .header .goods-img image {
+    position: absolute;
+    top: -60px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.choice-spec .header .goods-img .goods-title {
+    margin-left: 240px;
+    padding-top: 30px;
+    display: block;
+    overflow: hidden;
+    height: 120px;
+}
+
+.choice-spec .header .goods-img .goods-title text {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    overflow: hidden;
+    color: #FF635C;
+}
+
+.choice-spec .header .goods-img .goods-title label {
+    font-size: 24px;
+    line-height: 28px;
+    color: #999999;
+    display: block;
+    overflow: hidden;
+    margin-top: 16px;
+    padding-right: 20px;
+}
+
+.choice-spec .close-action {
+    font-size: 24px;
+    color: #666666;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.choice-spec .close-action image{
+    width: 16px;
+    height: 16px;
+}
+
+.choice-spec .spec-list {
+    padding: 0 30px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.choice-spec .spec-list .item {
+}
+
+.choice-spec .spec-list .item .title {
+    font-size: 28px;
+    line-height: 28px;
+    color: #999999;
+    margin-left: 30px;
+    display: block;
+}
+
+.choice-spec .spec-list .item:nth-child(1) .title {
+    margin-top: 30px;
+}
+
+.choice-spec .spec-list .item .title {
+}
+
+.choice-spec .spec-list .item .spec {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.choice-spec .spec-list .item .spec .spec-title {
+    font-size: 28px;
+    color: #333;
+    background-color: #F8F8F8;
+    padding: 8px 30px;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.choice-spec .spec-list .item .spec .spec-title.active {
+    background-color: #FF635C;
+    color: #ffffff;
+}
+
+.choice-spec .number {
+    padding: 30px;
+    border-top: 2px solid #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choice-spec .number text {
+    font-size: 28px;
+    color: #999999;
+}
+
+.choice-spec .number fa-stepper {
+
+}
+
+.choice-spec .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choice-spec .footer fa-button {
+    width: 100%;
+}
+
+/*!*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*!*/
+/*.choice-spec::-webkit-scrollbar*/
+/*{*/
+/*width: 6px;*/
+/*height: 6px;*/
+/*background-color: #ffffff;*/
+/*}*/
+
+/*!*定义滚动条轨道 内阴影+圆角*!*/
+/*.choice-spec::-webkit-scrollbar-track*/
+/*{*/
+/*background-color: #F8F8F8;*/
+/*}*/
+
+/*!*定义滑块 内阴影+圆角*!*/
+/*.choice-spec::-webkit-scrollbar-thumb*/
+/*{*/
+/*border-radius: 10px;*/
+/*-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3);*/
+/*background-color: #FF635C;*/
+/*}*/

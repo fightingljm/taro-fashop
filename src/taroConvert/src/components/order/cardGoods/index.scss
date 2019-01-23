@@ -1,0 +1,77 @@
+.order-card-goods {
+    /*background-color: #F2F2F2;*/
+    padding: 30px 30px 0 30px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.order-card-goods .item {
+    margin-right: 20px;
+    display:inline-block;
+    border-bottom: 2px solid #F8F8F8;
+
+}
+
+.order-card-goods .item image {
+    width: 150px;
+    height: 150px;
+}
+
+.order-card-goods-one {
+    /*background-color: #F2F2F2;*/
+    padding: 30px 30px 0 30px;
+}
+
+.order-card-goods-one .one-item {
+    display: flex;
+    justify-content: flex-start;
+    height: 150px;
+}
+
+.order-card-goods-one .one-item image {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-right: 20px;
+}
+
+.order-card-goods-one .one-item .body {
+    overflow: hidden;
+    flex: 1;
+    color: #333;
+    position: relative;
+}
+
+.order-card-goods-one .one-item .body text {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+    display: block;
+    overflow: hidden;
+}
+.order-card-goods-one .one-item .body>label{
+    font-size: 24px;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    color: #666;
+}
+.order-card-goods-one .one-item .body .desc{
+    font-size: 24px;
+    color: #999;
+    line-height: 24px;
+    margin-bottom: 20px;
+    height: 24px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-card-goods-one .one-item .body .desc label{
+
+}
+.order-card-goods-one .one-item .body .desc i{
+
+}
+

@@ -1,0 +1,185 @@
+.cell-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-action-area {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.order-action-area .header {
+    padding: 24px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.order-action-area .header .left {
+    display: flex;
+}
+
+.order-action-area .header .left text {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.order-action-area .header .right {
+    display: flex;
+}
+
+.order-action-area .header .right text {
+    font-size: 24px;
+    color: #666666;
+}
+
+.fa-cell__bd {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-cell__text {
+    line-height: 28px;
+    font-size: 28px
+}
+
+.fa-cell {
+    position: relative;
+    padding: 24px 30px;
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+    font-size: 28px;
+    justify-content: space-around;
+}
+
+.fa-cell::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 200%;
+    height: 200%;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border: 0 solid #e5e5e5;
+    border-bottom-width: 2px;
+    left: 30px;
+    right: 0
+}
+
+.fa-cell--access .fa-cell__ft {
+    padding-right: 26px;
+    position: relative;
+}
+
+.fa-cell--access .fa-cell__ft::after {
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    content: " ";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-width: 4px 4px 0 0;
+    border-color: #c8c8c8;
+    border-style: solid;
+    -webkit-transform: translateY(-50%) matrix(.71, .71, -.71, .71, 0, 0);
+    transform: translateY(-50%) matrix(.71, .71, -.71, .71, 0, 0)
+}
+
+.fa-cell--switch {
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.order-action-area .list {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.order-action-area .list .item {
+    text-align: center;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order-action-area .list .item .icon {
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.order-action-area .list .item .icon image {
+    width: 44px;
+    height: 44px;
+    display: block;
+    overflow: hidden;
+}
+
+.order-action-area .list .item text {
+    font-size: 24px;
+    line-height: 24px;
+    color: #666666;
+    display: block;
+}
+
+.user-header {
+}
+
+.user-header .avatar {
+    display: flex;
+    align-items: center;
+}
+
+.user-header .avatar image {
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+    border-radius: 60px;
+}
+.user-header .avatar .nickname{
+    font-weight: bold;
+    font-size: 32px;
+}
+.setting-action {
+    font-size: 24px;
+    color: #666666;
+
+}
+.fashop-copyright{
+    position: absolute;
+    bottom: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fashop-copyright .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fashop-copyright image{
+    height: 32px;
+    width: 100px;
+    margin-right: 10px;
+}
+.fashop-copyright text{
+    color: #cccccc;
+    font-size: 24px;
+    line-height: 24px;
+}

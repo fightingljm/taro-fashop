@@ -1,0 +1,22 @@
+fa-panel{margin-bottom: 20px;display: block}
+.list-empty {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50%;
+}
+.list-empty image {
+    display: block;
+    overflow: hidden;
+    width: 244px;
+    height: 244px;
+}
+.list-empty text {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 28px;
+    color: #999999;
+}

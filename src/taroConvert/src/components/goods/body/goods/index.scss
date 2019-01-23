@@ -1,0 +1,63 @@
+
+/*列表*/
+.page-goods-list-rows{
+    overflow: hidden;
+    display: block;
+}
+.page-goods-list-rows section{
+    display:block;
+    box-sizing:boder-box;
+}
+.page-goods-list-rows section details{
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 30px;
+    position: relative;
+    height: 200px;
+}
+.page-goods-list-rows section details>image{
+    margin:0;
+    padding:0;
+    border:0;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    float:left;
+    position:absolute;
+}
+.page-goods-list-rows section details .title-price{
+    background-color:#fff;
+    display:inline-block;
+    overflow:hidden;
+    float:left;
+    margin-left:240px;
+    position: relative;
+    height: 100%;
+    border-bottom: 2px solid #F8F8F8;
+}
+.page-goods-list-rows section details:last-child .title-price{
+    border-bottom: none;
+}
+.page-goods-list-rows section details .title-price text{
+    color: #333333;
+    height: 80px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.page-goods-list-rows section details .title-price i{
+    line-height:28px;
+    height:28px;
+    color:#FF0000;
+    margin-bottom:10px;
+    font-size:28px;
+    display:inherit;
+    font-weight: bold;
+}

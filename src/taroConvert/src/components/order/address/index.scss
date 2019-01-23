@@ -1,0 +1,44 @@
+.order-address {
+    padding: 30px;
+    display: flex;
+}
+
+.order-address image {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.order-address .info {
+}
+
+.order-address .info .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.order-address .info .user .name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 28px;
+    display: block;
+
+}
+
+.order-address .info .user .phone {
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 28px;
+    display: block;
+}
+
+.order-address .info .address {
+    font-size: 28px;
+    line-height: 28px;
+    display: block;
+    color: #999999;
+    margin-left: 60px;
+}

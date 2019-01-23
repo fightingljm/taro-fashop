@@ -1,0 +1,62 @@
+.refund-goods-info {
+}
+.refund-goods-info .header{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px 30px 0 30px;
+}
+.refund-goods-info .item {
+    padding: 30px;
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.refund-goods-info .content {
+    display: flex;
+    justify-content: flex-start;
+}
+.refund-goods-info .item .image {
+    width: 120px;
+    height: 120px;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.refund-goods-info .item image {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.refund-goods-info .item .body {
+    flex: 1;
+}
+
+.refund-goods-info .item .body text {
+    font-size: 24px;
+    color: #333;
+    line-height: 36px;
+    display: block;
+    overflow: hidden;
+}
+.refund-goods-info .item .end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #999999;
+    line-height: 24px;
+    align-items: center;
+
+}
+.refund-goods-info .item .end .spec {
+    color: #999999;
+    display: block;
+}
+
+.refund-goods-info .item .end .number {
+    display: block;
+}
+.refund-goods-info .item .footer{
+    display: flex;
+    justify-content: flex-end;
+}

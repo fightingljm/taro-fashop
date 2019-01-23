@@ -1,0 +1,60 @@
+.refund-goods-card {
+}
+
+.refund-goods-card .item {
+    padding: 30px;
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.refund-goods-card .content {
+    display: flex;
+    justify-content: flex-start;
+}
+.refund-goods-card .item .image {
+    width: 120px;
+    height: 120px;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.refund-goods-card .item image {
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+
+.refund-goods-card .item .body {
+    flex: 1;
+}
+
+.refund-goods-card .item .body text {
+    font-size: 28px;
+    color: #333;
+    line-height: 40px;
+    display: block;
+    overflow: hidden;
+
+}
+.refund-goods-card .item .end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #999999;
+    line-height: 24px;
+    align-items: center;
+}
+.refund-goods-card .item .end .spec {
+    font-size: 24px;
+    color: #999999;
+    display: block;
+
+}
+
+.refund-goods-card .item .end .number {
+    display: block;
+}
+.refund-goods-card .item .footer{
+    display: flex;
+    justify-content: flex-end;
+}

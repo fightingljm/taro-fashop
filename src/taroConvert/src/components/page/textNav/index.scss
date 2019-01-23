@@ -1,0 +1,21 @@
+.page-text-nav{display: block;overflow: hidden}
+.page-text-nav details{
+    display: flex;
+    height: 100px;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 2px solid #F8F8F8;
+}
+.page-text-nav details:last-child{
+    border-bottom: 0px solid #F8F8F8;
+}
+.page-text-nav details text{
+    font-size: 28px;
+    font-weight: bold;
+}
+.page-text-nav details image{
+    width: 30px;
+    height: 30px;
+}

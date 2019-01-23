@@ -1,0 +1,255 @@
+.change-style-button{
+    background-color: #F4C869;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: fixed;
+    z-index: 2;
+    right:40px;
+    bottom: 40px;
+    box-shadow: #000000 0px 0px 40px;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+}
+/* style 1*/
+.goods-category-style-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: relative;
+}
+.goods-category-style-1 .line{
+    height: 100vh;
+    background-color: #F8F8F8;
+    width: 2px;
+    left: 20.8vw;
+    top: 0;
+    position: absolute;
+}
+.goods-category-style-1 aside:nth-child(1){
+    width: 20.8vw;
+}
+.goods-category-style-1 aside:nth-child(1) scroll-view{
+    width: 20.8vw;
+    display: block;
+    overflow: hidden;
+    height: 100vh;
+}
+.goods-category-style-1 aside:nth-child(1) scroll-view details{
+    padding: 20px 0;
+    margin: 0 auto;
+    height: 72px;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goods-category-style-1 aside:nth-child(1) scroll-view details text{
+    font-size: 28px;
+    line-height: 28px;
+    color: #333333;
+}
+.goods-category-style-1 aside:nth-child(1) scroll-view details.active text{
+    font-size: 28px;
+    line-height: 28px;
+    color: #FA0000;
+    font-weight: bold;
+}
+.goods-category-style-1 aside:nth-child(2){
+    width: 79.2vw;
+    display: flex;
+    justify-content: center;
+
+}
+.goods-category-style-1 aside:nth-child(2)>scroll-view{
+    width: 79.2vw;
+    height: 100vh;
+    white-space: nowrap;
+    overflow: scroll;
+    box-sizing: border-box;
+
+}
+.goods-category-style-1 aside:nth-child(2)>scroll-view section{
+    width: 522px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto
+}
+.goods-category-style-1 aside:nth-child(2)>scroll-view section>details{
+    width: 174px;
+    height: 156px;
+    text-align: center;
+    display:block;
+    overflow:hidden;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.goods-category-style-1 aside:nth-child(2)>scroll-view section>details>image{
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 30px auto;
+    display:block;
+}
+.goods-category-style-1 aside:nth-child(2)>scroll-view section>details>text{
+    font-size: 22px;
+    color:#666666;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+}
+
+/* style 2*/
+.goods-category-style-2{
+    background-color: #ffffff;
+}
+.goods-category-style-2 aside{
+    width: 696px;
+    display: block;
+    overflow: hidden;
+    margin:0 auto;
+    text-align: center;
+}
+.goods-category-style-2 title{
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+    height: 120px;
+    line-height: 120px;
+    color:#333333;
+    display: inline-block;
+    margin: 40px 0 0 0;
+}
+.goods-category-style-2 em.before,.goods-category-style-2 em.after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 40px;
+    border-top: 2px solid #e0e0e0;
+    transform: translate3d(-150%,-50%,0);
+    -webkit-transform: translate3d(-150%,-50%,0);
+}
+.goods-category-style-2 em.after{
+    left: auto;
+    right: 0;
+    transform: translate3d(150%,-50%,0);
+    -webkit-transform: translate3d(150%,-50%,0);
+}
+.goods-category-style-2 section{
+    display: block;
+    overflow: hidden;
+}
+.goods-category-style-2 section details{
+    width: 174px;
+    height: 160px;
+    text-align: center;
+    display:block;
+    overflow:hidden;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.goods-category-style-2 section details image{
+    width: 104px;
+    height: 104px;
+    margin: 0 auto 30px auto;
+    display:block;
+}
+.goods-category-style-2 section details text{
+    font-size: 28px;
+    color:#666666;
+    line-height: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+}
+/* style 3*/
+.goods-category-style-3{
+
+}
+.goods-category-style-3 aside{
+    width: 100vw;
+    height: 96px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    display: block;
+}
+.goods-category-style-3 aside details{
+
+}
+.goods-category-style-3 aside details text {
+    border: 2px solid #ffffff;
+    border-radius: 48px;
+    height: 48px;
+    margin-right: 20px;
+    background-color: #F8F8F8;
+    font-size: 28px;
+    padding: 0 40px;
+    display: inline-block;
+    line-height: 48px;
+}
+.goods-category-style-3 aside details text.active {
+    border: 2px solid #FF0000;
+    background-color: #fff;
+    color: #FF0000;
+}
+.goods-category-style-3 section{
+    display:block;
+    border-top:12px solid rgba(0, 0, 0, 0);
+    border-left:12px solid rgba(0, 0, 0, 0);
+    border-right:12px solid rgba(0, 0, 0, 0);
+    box-sizing:boder-box;
+    overflow:hidden;
+}
+.goods-category-style-3 section details{
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 12px;
+}
+.goods-category-style-3 section details:nth-child(odd){
+    margin-right: 12px;
+}
+.goods-category-style-3 section details>image{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+.goods-category-style-3 section details .title-price{
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+}
+.goods-category-style-3 section details .title-price text{
+    color: #333333;
+    height: 80px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.goods-category-style-3 section details .title-price i{
+    line-height:28px;
+    height:28px;
+    color:#FF0000;
+    margin-bottom:10px;
+    font-size:28px;
+    display:inherit;
+    font-weight: bold;
+}

@@ -1,0 +1,62 @@
+.page {
+    background-color: #ffffff;
+    padding: 40px 60px 0 60px;
+    height: 100vh;
+}
+
+.form {
+    display: block;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.form .input-item {
+    border-bottom: 2px solid #F8F8F8;
+    margin-bottom: 30px;
+}
+.form .header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.form .header image{
+    width:170px;
+    height: 170px;
+    margin-bottom: 40px;
+}
+.form .header text{
+    font-size: 28px;
+    color: #333333;
+}
+
+.form .input-item input {
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.form .username {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.form .username label {
+    font-size: 28px;
+    line-height: 56px;
+    color: #666666;
+    background-color: #F8F8F8;
+    padding: 4px 40px;
+    border-radius: 200px;
+}
+.form .username label.onemore{
+    background-color: #F7B3BB;
+    color: #F06A1F;
+}
+.form .btn-area {
+    margin-bottom: 30px;
+}

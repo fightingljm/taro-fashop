@@ -1,0 +1,37 @@
+.order-cost-list {
+    background-color: #fff;
+    padding: 30px 0px;
+}
+
+.order-cost-list .item {
+}
+
+.order-cost-list .item .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.order-cost-list .item .row label {
+    font-size: 28px;
+    font-weight: bold
+}
+
+.order-cost-list .item .row text {
+    font-size: 24px;
+    font-weight: bold
+}
+.order-cost-list .footer{
+    text-align: right;
+    padding: 20px 30px 0 30px;
+    border-top: 2px solid #F8F8F8;
+}
+.order-cost-list .footer label{
+    font-size: 24px;
+}
+.order-cost-list .footer text{
+    font-size: 28px;
+    font-weight: bold;
+    color:#ff4400;
+}

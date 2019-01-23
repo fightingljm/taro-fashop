@@ -1,0 +1,56 @@
+.order-state-card{
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF635C;
+    color:#FFFFFF;
+}
+.order-state-card .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.order-state-card .left image{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.order-state-card .left text{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.order-state-card .right{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+.order-state-card .right text{
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 28px;
+    display: block;
+}
+.order-state-card .right label{
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 24px;
+    display: block;
+    margin-top: 12px;
+}
+
+.noticebar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFCC;
+    padding: 20px;
+}
+.noticebar image{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.noticebar text{font-size: 24px;line-height: 32px;display: block;color:#F07B3F;}

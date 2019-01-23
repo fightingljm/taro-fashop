@@ -1,0 +1,49 @@
+.order-card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 2px solid #F8F8F8;
+}
+.order-card-header .left{
+    display: flex;
+    align-items: center;
+}
+.order-card-header .left text{
+    font-size: 28px;
+    color: #999999;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+}
+.order-card-header .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-card-header .right .state{
+    font-size: 28px;
+    color: #333;
+}
+.order-card-header .right .del-icon{
+    width:40px;
+    height: 40px;
+    margin-left: 20px;
+}
+.order-card-header .right .state-0{
+    color:red;
+}
+.order-card-header .right .state-10{
+    color:red;
+
+}
+.order-card-header .right .state-20{
+    color:red;
+
+}
+.order-card-header .right .state-30{
+    color:red;
+
+}
+.order-card-header .right .state-40{
+    color:red;
+}

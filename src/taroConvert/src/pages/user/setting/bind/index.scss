@@ -1,0 +1,26 @@
+.user-setting-bind{
+    background-color: #F8F8F8;
+    padding-bottom: 320px;
+}
+.user-setting-bind .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-setting-bind .icon image{
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+}
+
+.user-setting-bind fa-panel{
+    display: block;
+}
+.user-setting-bind .footer{
+    padding: 30px;
+    font-size: 24px;
+    color: #999999;
+}
+.user-setting-bind .footer text{
+    display: block;
+}

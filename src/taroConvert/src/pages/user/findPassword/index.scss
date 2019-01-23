@@ -1,0 +1,40 @@
+.page {
+    background-color: #ffffff;
+    padding: 60px 60px 0 60px;
+    height: 100vh;
+}
+
+.form {
+    display: block;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.form .input-item {
+    border-bottom: 2px solid #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.form .input-item input {
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.form .username {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.form .username label {
+    font-size: 28px;
+    line-height: 56px;
+    color: #666666;
+    padding-right: 30px;
+}
+
+.form .btn-area {
+    margin-bottom: 30px;
+}

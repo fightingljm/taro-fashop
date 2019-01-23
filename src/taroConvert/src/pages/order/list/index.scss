@@ -1,0 +1,30 @@
+.page-container {
+    background-color: #F8F8F8;
+    display: block;
+    overflow: hidden
+}
+fa-panel {
+    display: block;
+    margin-bottom: 20px;
+}
+.list-empty {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50%;
+}
+.list-empty image {
+    display: block;
+    overflow: hidden;
+    width: 244px;
+    height: 244px;
+}
+.list-empty text {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    font-size: 28px;
+    color: #999999;
+}

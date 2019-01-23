@@ -1,0 +1,54 @@
+.page-icon-nav-bar{display: block;overflow: hidden}
+.page-icon-nav-bar .page-icon-nav-bar-icon{
+    height: 120px;
+    flex-direction: row;
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+}
+.page-icon-nav-bar .page-icon-nav-bar-icon details{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+.page-icon-nav-bar .page-icon-nav-bar-icon details image{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.page-icon-nav-bar .page-icon-nav-bar-icon details text{
+    font-size: 24px;
+    line-height: 24px;
+}
+.page-icon-nav-bar .menu-space-1 details{
+    margin-right: 2px;
+}
+.page-icon-nav-bar .menu-space-2 details{
+    margin-right: 2px;
+}
+.page-icon-nav-bar details:last-child{margin-right: 0}
+
+.page-icon-nav-bar .page-icon-nav-bar-text{
+    height: 120px;
+    flex-direction: row;
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+}
+.page-icon-nav-bar .page-icon-nav-bar-text details{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+}
+.page-icon-nav-bar .page-icon-nav-bar-text details text{
+    font-size: 28px;
+    line-height: 28px;
+}
+
+
