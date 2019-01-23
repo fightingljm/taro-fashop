@@ -1,5 +1,5 @@
 <view class="order-goods-list">
-    <view class="item" wx:for="{{goodsList}}" wx:for-index="{{index}}" wx:key="item">
+    <view class="item" wx:for="{{goodsList}}" wx:for-index="index" wx:key="item">
         <view class="content" bindtap="onGoodsDetail" data-goods-info="{{item}}">
             <view class="image">
                 <image src="{{item.goods_img}}" mode="aspectFill" />

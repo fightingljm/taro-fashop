@@ -66,7 +66,7 @@
                 </scroll-view>
             </aside>
             <section>
-                <block wx:for="{{style3.list}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+                <block wx:for="{{style3.list}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
                     <details style="width:{{style3.smallImageWidth}}px" data-id="{{item.id}}" bindtap="goGoodsDetail">
                         <image src="{{item.img}}"  style="width:{{style3.smallImageWidth}}px;height: {{style3.smallImageWidth}}px"  mode="aspectFill" />
                         <view class="title-price">

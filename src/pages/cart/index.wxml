@@ -61,7 +61,7 @@
                 </fa-panel>
                 <fa-panel>
                     <section>
-                        <block wx:for="{{cartList}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+                        <block wx:for="{{cartList}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
                             <details>
                                 <aside class="left">
                                     <icon type="success" size="16" data-index="{{index}}"

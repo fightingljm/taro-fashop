@@ -1,5 +1,5 @@
 <view style="background-color:{{backgroundColor}};display: block;overflow: hidden">
-    <view wx:for="{{pageData}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+    <view wx:for="{{pageData}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
         <block wx:if="{{item.type === 'image_ads'}}">
             <page-banner dataSource="{{item}}" bind:click="onBannerClick"/>
         </block>

@@ -1,4 +1,4 @@
-<view wx:for="{{body}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+<view wx:for="{{body}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
     <block wx:if="{{item.type === 'text'}}">
         <body-goods-text text="{{item.value.content}}" />
     </block>

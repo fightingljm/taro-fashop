@@ -1,7 +1,7 @@
 
 <view class="page-goods-list-rows" wx:if="{{goodsList.length>0}}">
     <section>
-        <block wx:for="{{goodsList}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+        <block wx:for="{{goodsList}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
         <details bindtap="onClick">
             <image src="{{item.img.url}}"/>
             <view class="title-price">

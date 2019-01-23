@@ -1,7 +1,7 @@
 <view class="cart">
     编辑/保存
     <section>
-        <block wx:for="{{cartList}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+        <block wx:for="{{cartList}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
             <details>
                 <aside class="left">
                     <checkbox value="1" checked="true" />

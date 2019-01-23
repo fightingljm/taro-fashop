@@ -45,7 +45,7 @@
             <!--</view>-->
             <!--<text slot="footer">共8件</text>-->
             <!--</fa-cell>-->
-            <block wx:for="{{cartList}}" wx:key="key" wx:for-index="page-data" wx:for-item="item">
+            <block wx:for="{{cartList}}" wx:key="key" wx:for-index="pagedataindex" wx:for-item="item">
                 <fa-cell>
                     <view class="one-item">
                         <view class="image">
