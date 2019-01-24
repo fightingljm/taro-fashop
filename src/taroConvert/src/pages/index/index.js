@@ -22,7 +22,7 @@ const categoryModel = new GoodsCategoryModel()
 @withWeapp('Page')
 class _C extends Taro.Component {
   state = {
-    pageData: null,
+    pageData: [],
     backgroundColor: '#f8f8f8'
   }
 

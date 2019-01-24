@@ -18,14 +18,14 @@ class _C extends Taro.Component {
   state = {
     style: 1,
     style1: {
-      categoryList: null,
+      categoryList: [],
       mainNavClickIndex: 0,
       mainNavScrollIndex: 0,
       mainNavScrollPoints: [],
       categoryId: null
     },
     style2: {
-      categoryList: null,
+      categoryList: [],
       categoryId: null
     },
     style3: {
@@ -34,7 +34,7 @@ class _C extends Taro.Component {
       noMore: false,
       list: [],
       style: 3,
-      categoryList: null,
+      categoryList: [],
       smallImageWidth: 0,
       categoryId: null,
       categoryClickIndex: -1
@@ -205,13 +205,13 @@ class _C extends Taro.Component {
           {style === 1 && (
             <Block>
               <View className="goods-category-style-1">
-                <Aside>
+                <aside>
                   <ScrollView scrollY="true" scrollWithAnimation="true">
                     {style1.categoryList.map((item, index) => {
                       return (
                         <Block key="item">
                           <View id={'category_main_' + index}>
-                            <Details
+                            <details
                               data-id={item.id}
                               data-index={index}
                               onClick={this.mainNavTap}
@@ -222,14 +222,14 @@ class _C extends Taro.Component {
                               }
                             >
                               <Text>{item.name}</Text>
-                            </Details>
+                            </details>
                           </View>
                         </Block>
                       )
                     })}
                   </ScrollView>
-                </Aside>
-                <Aside>
+                </aside>
+                <aside>
                   <ScrollView
                     scrollY="true"
                     scrollWithAnimation="true"
@@ -241,11 +241,11 @@ class _C extends Taro.Component {
                     {style1.categoryList.map((item, index) => {
                       return (
                         <Block data-index={index} key="item">
-                          <Section id={'category_parents_' + index}>
+                          <section id={'category_parents_' + index}>
                             {item.childs.map((sub, index) => {
                               return (
                                 <Block key="sub">
-                                  <Details
+                                  <dSeetails
                                     data-index={index}
                                     data-category-id={sub.id}
                                     data-category-name={sub.name}
@@ -253,16 +253,16 @@ class _C extends Taro.Component {
                                   >
                                     <Image src={sub.icon} mode="aspectFit" />
                                     <Text>{sub.name}</Text>
-                                  </Details>
+                                  </dSeetails>
                                 </Block>
                               )
                             })}
-                          </Section>
+                          </section>
                         </Block>
                       )
                     })}
                   </ScrollView>
-                </Aside>
+                </aside>
                 <View className="line" />
               </View>
             </Block>
@@ -270,44 +270,44 @@ class _C extends Taro.Component {
           {style === 2 && (
             <Block>
               <View className="goods-category-style-2">
-                <Aside>
+                <aside>
                   {style2.categoryList.map((item, index) => {
                     return (
                       <Block data-index={index} key="item">
-                        <Title>
-                          <Em className="before" />
+                        <title>
+                          <em className="before" />
                           {item.name}
-                          <Em className="after" />
-                        </Title>
-                        <Section data-index={index}>
+                          <em className="after" />
+                        </title>
+                        <section data-index={index}>
                           {item.childs.map((sub, index) => {
                             return (
                               <Block key="sub">
-                                <Details
+                                <details
                                   data-category-id={sub.id}
                                   data-category-name={sub.name}
                                   onClick={this.categoryClick}
                                 >
                                   <Image src={sub.icon} mode="aspectFit" />
                                   <Text>{sub.name}</Text>
-                                </Details>
+                                </details>
                               </Block>
                             )
                           })}
-                        </Section>
+                        </section>
                       </Block>
                     )
                   })}
-                </Aside>
+                </aside>
               </View>
             </Block>
           )}
           {style === 3 && (
             <Block>
               <View className="goods-category-style-3">
-                <Aside>
+                <aside>
                   <ScrollView scrollX="true" scrollWithAnimation="true">
-                    <Details
+                    <details
                       data-id="0"
                       data-index="-1"
                       onClick={this.style3CategoryClick}
@@ -319,11 +319,11 @@ class _C extends Taro.Component {
                       >
                         全部
                       </Text>
-                    </Details>
+                    </details>
                     {style3.categoryList.map((item, index) => {
                       return (
                         <Block key="item">
-                          <Details
+                          <details
                             data-id={item.id}
                             data-index={index}
                             data-category-id={item.id}
@@ -338,17 +338,17 @@ class _C extends Taro.Component {
                             >
                               {item.name}
                             </Text>
-                          </Details>
+                          </details>
                         </Block>
                       )
                     })}
                   </ScrollView>
-                </Aside>
-                <Section>
+                </aside>
+                <section>
                   {style3.list.map((item, pagedataindex) => {
                     return (
                       <Block key="key">
-                        <Details
+                        <details
                           style={'width:' + style3.smallImageWidth + 'px'}
                           data-id={item.id}
                           onClick={this.goGoodsDetail}
@@ -368,11 +368,11 @@ class _C extends Taro.Component {
                             <Text>{item.title}</Text>
                             <I>{'¥ ' + item.price}</I>
                           </View>
-                        </Details>
+                        </details>
                       </Block>
                     )
                   })}
-                </Section>
+                </section>
                 <View className="line" />
               </View>
             </Block>
