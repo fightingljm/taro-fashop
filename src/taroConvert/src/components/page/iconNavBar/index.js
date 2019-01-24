@@ -35,7 +35,7 @@ class _C extends Taro.Component {
             {dataSource.data.map((item, index) => {
               return (
                 <Block key="key">
-                  <Details
+                  <details
                     style={'background-color: ' + item.background_color}
                     data-index={index}
                     onClick={this.onClick}
@@ -44,7 +44,7 @@ class _C extends Taro.Component {
                     <Text style={'color:' + item.font_color + ';'}>
                       {item.title}
                     </Text>
-                  </Details>
+                  </details>
                 </Block>
               )
             })}

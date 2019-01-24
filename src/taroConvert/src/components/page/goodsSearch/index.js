@@ -25,10 +25,10 @@ class _C extends Taro.Component {
         className="page-goods-search"
         style={'background-color: ' + dataSource.options.background_color}
       >
-        <Section onClick={this.onClick}>
+        <section onClick={this.onClick}>
           <Image src={require('./goods-search-icon.png')} mode="aspectFit" />
           <Text>搜索商品</Text>
-        </Section>
+        </section>
       </View>
     )
   }
