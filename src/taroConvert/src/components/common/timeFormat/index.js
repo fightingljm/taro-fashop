@@ -1,4 +1,4 @@
-import { Block } from '@tarojs/components'
+import { Block, Text } from '@tarojs/components'
 import Taro from '@tarojs/taro'
 import withWeapp from '@tarojs/with-weapp'
 
@@ -46,7 +46,9 @@ class _C extends Taro.Component {
   render() {
     const { value: value, format: format } = this.props
     const { time: time, timestamp: timestamp } = this.state
-    return time + timestamp
+    return <Text>
+      {time}{timestamp}
+    </Text>
   }
 }
 
